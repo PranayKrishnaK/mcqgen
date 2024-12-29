@@ -5,7 +5,7 @@ import traceback
 from langchain.chat_models import ChatOpenAI
 from dotenv  import load_dotenv
 from src.mcqgenerator.logger import logging
-from mcqgenrator.utils import read_file,get_table_data
+from src.mcqgenerator.utils import read_file,get_table_data
 
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
